@@ -21,6 +21,9 @@ add_library(${PROJECT_NAME}
     include/dp/Controller.hpp
     Controller.cpp
     Config.hpp
+    Message.hpp
+    Communicator.hpp
+    CommunicatorAsio.cpp CommunicatorAsio.hpp
 )
 
 target_compile_features(${PROJECT_NAME} PUBLIC cxx_std_20)

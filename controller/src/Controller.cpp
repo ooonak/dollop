@@ -2,7 +2,6 @@
 
 #include <sodium.h>
 
-#include <boost/asio.hpp>
 #include <exception>
 #include <filesystem>
 
